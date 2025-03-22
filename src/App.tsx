@@ -26,7 +26,7 @@ function App() {
     {({ signOut, user }) => (
     <main>
       <h1>My todos</h1>
-      <button onClick={createTodo}>+ new</button>
+      <button onClick={createTodo}>Add New</button>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id} onClick={() => deleteTodo(todo.id)}>{todo.content}</li>
@@ -39,7 +39,7 @@ function App() {
           Review next step of this tutorial.
         </a>
       </div>
-      <button onClick={signOut} Sign Out</button>
+      <button onClick={signOut} >Sign Out</button>
     </main>
   </Authenticator>
   );
