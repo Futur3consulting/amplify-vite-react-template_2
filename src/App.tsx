@@ -24,7 +24,7 @@ function App() {
   return (
   <Authenticator>
     {({ signOut, user }) => (
-    <main>
+     <main>
       <h1>My todos</h1>
       <button onClick={createTodo}>Add New</button>
       <ul>
