@@ -32,10 +32,10 @@ function App() {
         ))}
       </ul>
       <div>
-        🥳 App successfully hosted. Try creating a new todo.
+        🥳 Create a New To Do.
         <br />
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-          Review next step of this tutorial.
+          Created by C.Armstrong
         </a>
       </div>
       <button onClick={signOut} >Sign Out</button>
